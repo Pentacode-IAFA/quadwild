@@ -1,6 +1,6 @@
 ############################ CONFIGURATION ############################
 
-DEFINES += COMISO_FIELD
+#DEFINES += COMISO_FIELD
 
 
 ############################ LIBRARY PATHS ############################
@@ -16,10 +16,10 @@ GMM_PATH            = $$PWD/CoMISo/gmm/
 EIGEN_PATH          = $$PWD/eigen/
 
 #GUI external libraries (needed only for field_computation and field_tracing projects)
-ANTTWEAKBAR_PATH    = /opt/AntTweakBar/
+ANTTWEAKBAR_PATH    = /home/mafo/dev/AntTweakBar
 
 #External libraries
 BOOST_PATH          = /usr/include/boost/
-GUROBI_PATH         = /opt/gurobi950/linux64/
+GUROBI_PATH         = /home/mafo/dev/gurobi951/linux64
 GUROBI_COMPILER     = gurobi_g++5.2
 GUROBI_LIB          = gurobi95
